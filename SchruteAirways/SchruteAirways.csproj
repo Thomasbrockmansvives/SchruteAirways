@@ -15,4 +15,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SchruteAirways.Domain\SchruteAirways.Domain.csproj" />
+    <ProjectReference Include="..\SchruteAirways.Services\SchruteAirways.Services.csproj" />
+  </ItemGroup>
+
 </Project>
